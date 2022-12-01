@@ -1,0 +1,12 @@
+displayName: Check Cert SAN
+type: middleware
+iconPath: .assets/icon.png
+
+import: github.com/traefik/checkCertSAN
+
+summary: '[Demo] Add Request Header'
+
+testData:
+  СheckDNS: true
+  СheckURI: true 
+  СheckIP: true 
